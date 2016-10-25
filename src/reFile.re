@@ -1,3 +1,8 @@
+/*
+ * vim: set ft=rust:
+ * vim: set ft=reason:
+ */
+
 /* EXPERIMENT thin wrapper around createClass, not the ML way of life */
 type intervalId;
 
