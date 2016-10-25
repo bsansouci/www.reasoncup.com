@@ -1,3 +1,8 @@
+/*
+ * vim: set ft=rust:
+ * vim: set ft=reason:
+ */
+ 
 external spring : 'a => 'a = "spring" [@@bs.module "react-motion"];
 
 let module Motion = {
