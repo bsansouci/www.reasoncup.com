@@ -1,3 +1,8 @@
+/*
+ * vim: set ft=rust:
+ * vim: set ft=reason:
+ */
+ 
 type reactClass;
 
 /* TODO: type classSpec (can't right now bc 'reactElement) */
