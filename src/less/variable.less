@@ -1,0 +1,98 @@
+// Helpers
+
+@phi: (1 + sqrt(5)) / 2;
+
+// Colors
+
+@black:                 #000;
+@gray_darkest:          #111;
+@gray_darker:           #333;
+@gray_dark:             #555;
+@gray:                  #888;
+@gray_light:            #ccc;
+@gray_lighter:          #ddd;
+@gray_lightest:         #eee;
+@white:                 #fff;
+
+// Typography
+
+@font_size: 16px;
+@font_size_small: .75 * @font_size;
+@line_height: 1.5;
+@font_color: @gray_dark;
+@font_sans: Roboto;
+@font_mono: Monaco;
+@font_family: @font_sans;
+
+// Color
+
+@color_select: @blue_deep;
+@color_select_hover: @blue;
+
+// @color_background: @gray_lightest;
+@color_background: @white;
+
+@color_tooltip: @gray_dark;
+
+@color_inset_black: fade(@black, 34);
+@color_inset_white: fade(@white, 5);
+
+@color_input_stroke: lighten(@gray, 31.667); // #D9D9D9 (matches safari's gray border for forms)
+@color_input_fill: @color_background;
+@color_input_placeholder: @gray;
+
+@color_button: @gray_light;
+
+@color_palette:
+~"red",    @red,
+~"orange", @orange,
+~"yellow", @yellow,
+~"green",  @green,
+~"cyan",   @cyan,
+~"blue",   @blue,
+~"purple", @purple,
+~"pink",   @pink;
+
+@color_hit_blue: #000066;
+@color_hit_yellow: #FFC63B;
+
+// Stroke
+
+// @stroke_width: 2;
+// @stroke_width_icon: 1.5;
+
+@stroke_button: 1px;
+@stroke_input: 1px;
+@stroke_screen: 4px;
+
+// Icon
+
+@icon_canvas: 100px;
+
+// Animation
+
+@now: 0.0ms;
+@run: 250ms;
+@run_faster: @run / 10.0;
+@run_fast:   @run / 2.50;
+@run_slow:   @run * 1.50;
+@run_slower: @run * 2.00;
+
+@bezier_fadein: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+@bezier_bounce: cubic-bezier(.55,0,.55,1.44);
+@bezier_deform: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+// Components
+// TODO change "tile" to "size"
+
+@tile_xxs: @tile / pow(2, 4);
+@tile_xs: @tile / pow(2, 2);
+@tile: 1rem * 4;
+@tile_xl: pow(@tile, 2);
+@tile_xxl: pow(@tile, 3);
+
+@padding: 1.5rem;
+
+// z-index index
+
+@zindex_tooltip: 1;

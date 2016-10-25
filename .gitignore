@@ -1,0 +1,9 @@
+.*
+!.gitignore
+!.merlin
+node_modules/
+_build/
+*.cm*
+*.css
+*.js
+!jsFile1.js

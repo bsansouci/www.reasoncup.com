@@ -1,0 +1,10 @@
+B src
+B src/nested
+B node_modules/bs-platform/lib/ocaml
+
+FLG -ppx /Users/dannyking/starter-with-rereact/node_modules/reason/reactjs_jsx_ppx.native
+FLG -ppx /Users/dannyking/starter-with-rereact/node_modules/bs-platform/bin/bsppx.exe
+
+S .
+S src
+S src/nested
