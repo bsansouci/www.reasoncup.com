@@ -45,3 +45,6 @@ build css
 ```
 fswatch -o src/less/ | xargs -n1 -I{} lessc src/less/app.less --autoprefix="> 5%" --verbose ./app.css
 ```
+
+# notes
+use your absolute path in `.merlin`
